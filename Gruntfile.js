@@ -9,7 +9,8 @@ module.exports = function(grunt) {
 				'options': {
 					// modifiers for prepared builds
 					// backbone, legacy, modern, mobile, strict, underscore
-					'modifier': 'legacy'
+					//'modifier': 'legacy'
+					'include': ['debounce', 'delay', 'defer']
 				}
 			}
 		}
